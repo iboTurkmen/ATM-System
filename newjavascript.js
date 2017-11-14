@@ -19,7 +19,7 @@ function withdrawal()
     money = false;
     if ((balance()-amount) <= 0) 
     {
-        document.write("<p><strong>You have not enough money to withdraw , check your total balance at above :( </strong>");
+        document.write("<p><strong>You have not enough money to withdraw , check your total balance at above :( </strong></p>");
     }
     else
     {
